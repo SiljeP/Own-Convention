@@ -76,14 +76,32 @@ div{
     flex-wrap: wrap;
 
 }
-figure{
+.king-fig{
     flex: 1 1 200px;
+    justify-content: center;
+
 }
 
-img{
-    width: 100%;
+.king-img{
+    width: auto;
     max-height: 500px;
     object-fit: cover;
     margin-right: 20px;
+
+}
+.joker-img{
     
+    max-height: 500px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 35%;
+
+}
+.joker-fig{
+    flex: 1 1 200px;
+    justify-content: center;
+
+}
+figcaption{
+    text-align: center;
 }
